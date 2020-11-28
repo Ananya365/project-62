@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+#oo{
+   font-family: 'Roboto', sans-serif; 
+}
+.wo{
+    font-family: 'Roboto', sans-serif;
+}
+#nasa{
+    width: 296px;
+    height: 237px;
+    transition: transform .2s;
+    border: 6px solid #07388a;
+}
+#nasa:hover{
+    transform: scale(0.9);
+}
+#img {
+    width: 20%;
+    border-radius: 25%;
+    height: 50%;
+    margin-top: 10px; 
+}
+body {
+    text-align: center;
+    background: linear-gradient( #00b7ff 0%, #9500ff 100%);
+    background-repeat: no-repeat;
+}
+#inper{
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#intro{
+        background: linear-gradient(#42adf5 5%, #a742f5 95%);
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#abt{
+    background: linear-gradient(#42f5b0 5%, #4e42f5 95%);
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+.contact p{
+    color: #fff;
+}
+.contact a{
+    font-family: 'Roboto', sans-serif;
+}
+.contact h3{
+    display: inline;
+}
+.line{
+    height: 4px;
+    width: 140px;
+    background-color: #000;
+    margin: 8px auto;
+}
+#con{
+    background-color: #024da8;
+    padding: 10px;
+}
+#con iframe{
+    width: 80%;
+}
+.nav{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #4f02a8;
+    cursor: pointer;
+    color: black;
+}
+.links{
+    color: #0044ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
+    display: inline-block;
+}
+a:link{
+    color: aqua;
+    text-decoration: none;
+}
+.links:hover{
+    color:aliceblue;
+    background-color: blue
+}
+a:visited{
+    text-decoration: none;
+    color:aqua;
+}
